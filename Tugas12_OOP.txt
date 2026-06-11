@@ -1,0 +1,11 @@
+# Inisialisasi variabel untuk menghitung jumlah angka
+jumlah_angka = 0
+
+# Melakukan perulangan dari angka 1 sampai 500
+# range(1, 501) artinya dari 1 hingga 500 (501 tidak termasuk)
+for i in range(1, 501):
+    # Cek apakah angka habis dibagi 7 (sisa bagi adalah 0)
+    if i % 7 == 0:
+        jumlah_angka += 1
+
+print(f"Banyaknya angka dari 1 sampai 500 yang habis dibagi 7 adalah: {jumlah_angka}")
