@@ -1,0 +1,11 @@
+jumlah_hadir = 0
+
+# Loop untuk meminta input dari Hari 1 sampai Hari 7
+for i in range(1, 8):
+    status = input(f"Hari : ")
+    # Jika input adalah 'H' atau 'h', jumlah hadir bertambah 1
+    if status == "H" or status == "h":
+        jumlah_hadir += 1
+
+# Menampilkan hasil akhir
+print(f"Jumlah hadir :(jumlah) hari")
