@@ -1,0 +1,8 @@
+hitung = 0
+
+# Menggunakan rentang 1 sampai 501 karena angka 500 ingin diikutsertakan
+for i in range(1, 501):
+    if i % 7 == 0:
+        hitung += 1
+
+print(f"Banyak angka dari 1 sampai 500 yang habis dibagi 7 adalah: {hitung}")
