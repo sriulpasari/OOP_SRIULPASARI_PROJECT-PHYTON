@@ -1,0 +1,12 @@
+belanja = 1000
+
+while (total := int(input())):
+  belanja += total 
+  
+  if belanja >= 50000:
+     belanja - 5000
+
+print(belanja)
+
+
+
