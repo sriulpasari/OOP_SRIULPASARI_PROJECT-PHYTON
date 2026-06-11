@@ -1,0 +1,17 @@
+#CONTOH STRUKTUR PENCABANGAN IF
+#infut data dari penguna
+nilai_ujian = float(input("Masukkan nilai ujian siswa: "))
+
+#Struktur kontrol pencanangan majemuk 
+if nilai_ujian >= 90:
+   predikat = "Sangat baik (A)"
+elif nilai_ujian >= 75:
+   predikat = "Baik (B)"
+elif nilai_ujian >= 60:
+   predikat = "Cukup (C)"
+else: 
+   predikat = "Kurang (D) - Memerlukan remedial"
+
+#Menampilkan hasil keputusan 
+print("Hasil Evaluasi:", predikat)
+  
