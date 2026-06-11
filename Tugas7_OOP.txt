@@ -1,0 +1,17 @@
+def kategori_internet(kbps):
+    mbps = kbps / 1000
+    
+    if mbps > 50:
+        return mbps, "Sangat Cepat"
+    elif mbps > 20:
+        return mbps, "Cepat"
+    elif mbps > 5:
+        return mbps, "Sedang"
+    else:
+        return mbps, "Lambat"
+
+kbps = float(input("Masukkan kecepatan internet (Kbps): "))
+mbps, kategori = kategori_internet(kbps)
+
+print(f"Kecepatan: Mbps")
+print(f"Kategori:kategori")
