@@ -1,0 +1,13 @@
+nama = infut("
+print("masukan nama :")
+
+umur =infut("masukan umur :")
+print umur)
+
+no_hp =in")
+print("nomor saya hp)
+
+email = input 
+print 
+
+print alamat 
